@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML</title>
+
+    <base href="../../../Desktop/Front_End_Learning/CodeFront/" target="_blank"/>
+
+    <style>
+        .flex {
+            border: 2px solid blue;
+            text-align: center;
+            width: 100px;
+        }
+
+        #flexsection {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+
+            border: 3px solid red;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is heading section of the page.</h1>
+    </header>
+
+    <hr />
+
+    <section>
+        <!-- This is a comment -->
+
+        <a href="otherpage.html">Go to other page</a>
+        <p><abbr title="Baku Higher Oil School">BHOS</abbr> has been established in <b>2011</b>.</p> 
+    </section>
+
+    <hr />
+
+    <section>
+        <img src="images/bhos.jpg" alt="BHOS Logo" usemap="#logomap" height="400" width="600"/>
+
+        <map name="logomap">
+            <area shape="rect" coords="34,44,270,350" alt="logoarea" href="images/bhos.jpg"/>
+        </map>
+    </section>
+
+    <hr />
+
+    <section>
+        <article>
+            <h2>A h2 Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, expedita omnis <blockquote>recusandae</blockquote> repellendus, repellat natus rerum dolor placeat delectus id aliquid iste fugit reiciendis hic ea, veritatis voluptatum eos?</p>
+        </article>
+        <aside>
+            <h3>Aside h3 heading</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex aperiam perferendis, officia illum minus nesciunt eligendi nihil culpa sunt similique reprehenderit, <br />recusandae tenetur? Nemo quaerat aut quod. Nesciunt, cum quaerat?</p>
+        </aside>
+    </section>
+
+    <hr />
+
+    <section>
+        <form action="https://www.google.com">
+            <label for="search">Search title</label>
+            <input type="text" placeholder="Your search title" name="q" id="search"/>
+
+            <button>Search</button>
+        </form>
+    </section>
+
+    <hr />
+
+    <section>
+        <p><cite>Soul Down</cite> by Edward Johnson</p>
+        <p>Interfaces in <em>C#</em> is declared using <code>interface</code> keyword</p>
+    </section>
+
+    <hr />
+
+    <section id="flexsection">
+        <div class="flex"><span>Element 1</span></div>
+        <div class="flex"><span>Element 2</span></div>
+        <div class="flex"><span>Element 3</span></div>
+        <div class="flex"><span>Element 4</span></div>
+        <div class="flex"><span>Element 5</span></div>
+        <div class="flex"><span>Element 6</span></div>
+    </section>
+
+    <hr />
+
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ysFIrNqGV_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <hr />
+
+    <section>
+        <table border="3" style="border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Table Heading 1</th>
+                    <th>Table Heading 2</th>
+                    <th>Table Heading 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table data 1.1</td>
+                    <td>Table data 1.2</td>
+                    <td>Table data 1.3</td>
+                </tr>
+                <tr>
+                    <td>Table data 2.1</td>
+                    <td>Table data 2.2</td>
+                    <td>Table data 2.3</td>
+                </tr>
+                <tr>
+                    <td>Table data 3.1</td>
+                    <td>Table data 3.2</td>
+                    <td>Table data 3.3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Table Footing 1</td>
+                    <td>Table Footing 2</td>
+                    <td>Table Footing 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr />
+
+    <section>
+        <h3>Ordered list</h3>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+        </ol>
+
+        <h3>Unordered list</h3>
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li>List item 4</li>
+        </ul>
+    </section>
+
+    <hr />
+
+    <footer>
+        <address>30 Khojaly district, Baku</address>
+    </footer>
+</body>
+</html>
